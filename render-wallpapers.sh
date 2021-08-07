@@ -2,6 +2,7 @@
 
 INKSCAPE="$(command -v inkscape)" || true
 OPTIPNG="$(command -v optipng)" || true
+CONVERT="$(command -v convert)" || true
 
 for theme in 'Monterey' 'WhiteSur'; do
   for screen in '1080p' '2k' '4k'; do
@@ -17,6 +18,7 @@ fi
 
 SRC_FILE="${theme}${color}.svg"
 PNG_file="${screen}/${theme}${color}.png"
+JPG_file="${screen}/${theme}${color}.jpg"
 
 if [[ -f "$PNG_file" ]]; then
   echo "'$PNG_file' exist! "
@@ -30,6 +32,15 @@ else
 #  fi
 fi
 
+if [[ -f "$JPG_file" ]]; then
+  echo "'$JPG_file' exist! "
+else
+  echo "Rendering '$JPG_file'"
+  "$CONVERT" "$PNG_file" -quality 100 "${screen}/${theme}${color}.jpg"
+fi
+
     done
   done
 done
+
+
