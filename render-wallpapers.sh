@@ -6,7 +6,7 @@ CONVERT="$(command -v convert)" || true
 
 for theme in 'Monterey' 'WhiteSur'; do
   for screen in '1080p' '2k' '4k'; do
-    for color in '' '-light' '-dark'; do
+    for color in '' '-light' '-dark' '-morning'; do
 
 if [[ "${screen}" == '1080p' ]]; then
   DPI="96"

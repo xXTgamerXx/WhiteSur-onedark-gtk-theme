@@ -13,13 +13,13 @@
 <!-- We start with sunrise at 7 AM. It will remain up for 1 hour. -->
 <static>
 <duration>3600.0</duration>
-<file>/usr/share/backgrounds/WhiteSur/WhiteSur.jpg</file>
+<file>/usr/share/backgrounds/WhiteSur/WhiteSur-morning.jpg</file>
 </static>
 
 <!-- Sunrise starts to transition to day at 8 AM. The transition lasts for 5 hours, ending at 1 PM. -->
 <transition type="overlay">
 <duration>18000.0</duration>
-<from>/usr/share/backgrounds/WhiteSur/WhiteSur.jpg</from>
+<from>/usr/share/backgrounds/WhiteSur/WhiteSur-morning.jpg</from>
 <to>/usr/share/backgrounds/WhiteSur/WhiteSur-light.jpg</to>
 </transition>
 
@@ -33,19 +33,19 @@
 <transition type="overlay">
 <duration>21600.0</duration>
 <from>/usr/share/backgrounds/WhiteSur/WhiteSur-light.jpg</from>
-<to>/usr/share/backgrounds/WhiteSur/WhiteSur-dark.jpg</to>
+<to>/usr/share/backgrounds/WhiteSur/WhiteSur.jpg</to>
 </transition>
 
 <!-- It's midnight. It'll stay dark for 5 hours up until 5 AM. -->
 <static>
 <duration>18000.0</duration>
-<file>/usr/share/backgrounds/WhiteSur/WhiteSur-dark.jpg</file>
+<file>/usr/share/backgrounds/WhiteSur/WhiteSur.jpg</file>
 </static>
 
 <!-- It's 5 AM. We'll start transitioning to sunrise for 2 hours up until 7 AM. -->
 <transition type="overlay">
 <duration>7200.0</duration>
-<from>/usr/share/backgrounds/WhiteSur/WhiteSur-dark.jpg</from>
-<to>/usr/share/backgrounds/WhiteSur/WhiteSur.jpg</to>
+<from>/usr/share/backgrounds/WhiteSur/WhiteSur.jpg</from>
+<to>/usr/share/backgrounds/WhiteSur/WhiteSur-morning.jpg</to>
 </transition>
 </background>

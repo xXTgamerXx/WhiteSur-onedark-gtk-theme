@@ -396,6 +396,29 @@
        y1="-245.54562"
        x2="1397.335"
        y2="-201.12416" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1105"
+       id="radialGradient1107"
+       cx="962.00256"
+       cy="698.7782"
+       fx="962.00256"
+       fy="698.7782"
+       r="960"
+       gradientTransform="matrix(0.29194998,0,0,0.18646141,804.72967,-503.75995)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1105">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0"
+         offset="0"
+         id="stop1101" />
+      <stop
+         style="stop-color:#585858;stop-opacity:1"
+         offset="1"
+         id="stop1103" />
+    </linearGradient>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -404,19 +427,19 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.1767767"
-     inkscape:cx="1128.5424"
-     inkscape:cy="130.10764"
+     inkscape:zoom="0.50000001"
+     inkscape:cx="1559"
+     inkscape:cy="572.99999"
      inkscape:document-units="mm"
      inkscape:current-layer="g1021"
      inkscape:document-rotation="0"
      showgrid="false"
      units="px"
-     inkscape:window-width="1920"
-     inkscape:window-height="1024"
-     inkscape:window-x="0"
-     inkscape:window-y="24"
-     inkscape:window-maximized="1"
+     inkscape:window-width="1534"
+     inkscape:window-height="829"
+     inkscape:window-x="518"
+     inkscape:window-y="112"
+     inkscape:window-maximized="0"
      inkscape:pagecheckerboard="0" />
   <metadata
      id="metadata5">
@@ -558,6 +581,15 @@
              d="m 831.00215,-476.35826 v 313.41964 c 0,0.0663 0.0536,0.11935 0.11988,0.11935 h 677.09357 c 0.066,0 0.1199,-0.0531 0.1199,-0.11935 v -81.08654 c -7.3958,-4.91537 -16.8213,-9.4105 -28.7301,-12.37495 -41.8924,-10.42827 -59.8049,14.25101 -86.2381,5.41311 -26.4333,-8.8379 -73.685,-15.64176 -128.7611,-19.92799 -55.0762,-4.28623 -63.176,-19.99888 -123.0034,-49.07762 -59.8274,-29.07875 -153.22998,-51.57124 -223.64783,-88.30572 -44.00769,-22.95725 -72.08329,-50.57402 -86.95282,-68.05993 z" />
         </g>
       </g>
+      <rect
+         width="508"
+         height="285.75"
+         fill="#000000"
+         fill-opacity="0.6"
+         style="mix-blend-mode:overlay;fill:url(#radialGradient1107);fill-opacity:1;stroke-width:0.254066"
+         id="rect64"
+         x="831.00165"
+         y="-543.81842" />
     </g>
   </g>
 </svg>
