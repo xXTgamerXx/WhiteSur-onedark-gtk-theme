@@ -152,21 +152,21 @@ if [[ "${#screens[@]}" -eq 0 ]] ; then
 fi
 
 install_wallpaper() {
-    echo
-    for theme in "${themes[@]}"; do
-      for screen in "${screens[0]}"; do
-        install "$theme" "$screen"
-      done
+  echo
+  for theme in "${themes[@]}"; do
+    for screen in "${screens[0]}"; do
+      install "$theme" "$screen"
     done
-    echo
+  done
+  echo
 }
 
 uninstall_wallpaper() {
-    echo
-    for theme in "${themes[@]}"; do
-      uninstall "$theme"
-    done
-    echo
+  echo
+  for theme in "${themes[@]}"; do
+    uninstall "$theme"
+  done
+  echo
 }
 
 if [[ $UID -ne $ROOT_UID ]];  then
