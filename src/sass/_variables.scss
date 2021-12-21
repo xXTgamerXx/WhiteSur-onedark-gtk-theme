@@ -77,12 +77,12 @@ $button_transition: all $shorter_duration $ease-out-quad;
 $backdrop_transition: $longer_duration ease-out;
 
 // Shadow
-$shadow_0: 0 1px 2px 0 rgba(black, 0.1), 0 2px 2px 0 rgba(black, 0.05);     // Slider hover shadow
-$shadow_1: 0 1px 1px 0 rgba(black, 0.12), 0 1px 2px 0 rgba(black, 0.06);    // Header-button shadow
-$shadow_2: 0 1px 1px 0 rgba(black, 0.1), 0 1px 2px 0 rgba(black, 0.05);     // Slider normal shadow
-$shadow_3: 0 1px 1px 0 rgba(black, 0.03), 0 1px 2px 0 rgba(black, 0.01);    // Normal button shadow
-$shadow_4: 0 2px 3px 0 rgba(black, 0.2), 0 3px 5px 0 rgba(black, 0.15);     // Switch-slider hover shadow
-$shadow_5: 0 1px 2px 0 rgba(black, 0.15), 0 2px 3px 0 rgba(black, 0.1);     // Switch-slider normal shadow
-$shadow_6: 0 0 8px rgba(black, 0.2), 0 0 4px rgba(black, 0.3);              // Switch-slider normal shadow
+$shadow_0: 0 1px 2px 0 rgba(28, 30, 35, 0.1), 0 2px 2px 0 rgba(28, 30, 35, 0.05);     // Slider hover shadow
+$shadow_1: 0 1px 1px 0 rgba(28, 30, 35, 0.12), 0 1px 2px 0 rgba(28, 30, 35, 0.06);    // Header-button shadow
+$shadow_2: 0 1px 1px 0 rgba(28, 30, 35, 0.1), 0 1px 2px 0 rgba(28, 30, 35, 0.05);     // Slider normal shadow
+$shadow_3: 0 1px 1px 0 rgba(28, 30, 35, 0.03), 0 1px 2px 0 rgba(28, 30, 35, 0.01);    // Normal button shadow
+$shadow_4: 0 2px 3px 0 rgba(28, 30, 35, 0.2), 0 3px 5px 0 rgba(28, 30, 35, 0.15);     // Switch-slider hover shadow
+$shadow_5: 0 1px 2px 0 rgba(28, 30, 35, 0.15), 0 2px 3px 0 rgba(28, 30, 35, 0.1);     // Switch-slider normal shadow
+$shadow_6: 0 0 8px rgba(28, 30, 35, 0.2), 0 0 4px rgba(28, 30, 35, 0.3);              // Switch-slider normal shadow
 
-$panel_asset_shadow: if($monterey == 'true' or $trans == 'false', none, 0 1px 3px 3px rgba(black, 0.15));
+$panel_asset_shadow: if($monterey == 'true' or $trans == 'false', none, 0 1px 3px 3px rgba(28, 30, 35, 0.15));
