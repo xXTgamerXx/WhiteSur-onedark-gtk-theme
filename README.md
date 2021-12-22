@@ -1,11 +1,11 @@
-<h1 align="center"> WhiteSur GTK Theme </h1>
+<h1 align="center"> WhiteSur One Dark GTK Theme </h1>
 <p align="center"> <img src="https://github.com/xXTgamerXx/WhiteSur-onedark-gtk-theme/raw/master/onedark-screenshot.png"/> </p>
 
 <br>
-<p align="center"> <b> A macOS BigSur-like theme for your GTK apps </b> </p>
+<p align="center"> <b> A macOS BigSur-like theme for your GTK apps, edited to use the OneDark color palette </b> </p>
 <br>
 
-# This is a fork of https://github.com/vinceliuice/WhiteSur-gtk-theme. This fork uses the Atom editor's one dark color pallette.
+# This is a fork of https://github.com/vinceliuice/WhiteSur-gtk-theme. This fork uses the Atom editor's one dark color palette.
 - Use `./install.sh -n Whitesur-onedark` to differenciate while installing the theme.
 
 # Installation is easy!
